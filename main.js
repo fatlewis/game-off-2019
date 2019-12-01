@@ -4,8 +4,8 @@ let win;
 
 const createWindow = () => {
 	win = new BrowserWindow({
-		width: 800,
-		height: 600,
+		width: 814,
+		height: 657,
 		webPreferences: {
 			nodeIntegration: true,
 		},
