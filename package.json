@@ -1,0 +1,17 @@
+{
+  "name": "game-off-2019",
+  "version": "0.0.1",
+  "description": "An entry for the itch.io game off 2019",
+  "main": "main.js",
+  "repository": "https://github.com/fatlewis/game-off-2019.git",
+  "author": "Matt Lewis <matt@m-lewis.co.uk>",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . testApp --platform=win32"
+  },
+  "dependencies": {
+    "electron": "^7.1.2",
+    "phaser": "3.21.0"
+  }
+}
