@@ -11,7 +11,7 @@
     "build": "electron-packager . testApp --platform=win32"
   },
   "dependencies": {
-    "electron": "^7.1.2",
+    "electron": "^18.3.7",
     "phaser": "3.21.0"
   }
 }
